@@ -40,7 +40,7 @@ margin: 80px 0;
 	margin-left: 30px;
 }
 img{
-	margin-left: 120px;
+	margin: 0 auto;
 }
 .content {
 	margin-bottom: 220px;
@@ -57,6 +57,22 @@ color:white;
 margin-top: 20px
 }
 
+.logo {
+    margin: 50px auto;
+    width: 10rem;
+    height: 8rem;
+    line-height: 5rem;
+    padding: 50px 0px 0px 0px;
+}
+
+.icon {
+    text-decoration: none;
+    border-bottom: none;
+    position: relative;
+    display: inline-block;
+    float: inherit;
+
+}
 </style>
 
 <link rel="stylesheet" href="${rootPath}/static/css/login_ok.css?20220610_004" />

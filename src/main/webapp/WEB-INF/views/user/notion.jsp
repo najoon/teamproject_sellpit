@@ -16,9 +16,17 @@
 body{
 background-image: url(${rootPath}/static/images/bg.jpg);
 }
-h2 {
-	text-align: center;
-	margin-top: 80px;
+header{
+    margin-top: 50px;
+    padding: 6px;
+    text-align: center;
+    margin: 0 auto;
+}
+header a {
+    text-decoration: none;
+	padding: 10px;
+    border-radius: 4px;
+    color: #58596b;
 }
 fieldset {
 	margin-top: 30px;
@@ -42,23 +50,11 @@ form button {
     background-color: rgb(45, 45, 45);
     border-radius: 4px;
 }
-footer{
-    margin-top: 20px;
-    border-radius: 10px;
-    padding: 6px;
-    text-align: center;
-    width: 130px;
-    margin: 0 auto;
-}
-footer a {
-    text-decoration: none;
-    color: rgb(201 201 201); 
-}
 </style>
 </head>
 <body>
 <header>
-	<h2>sellfit 게시판</h2>
+		<a href="${rootPath}/user/notionList" class="notion  last">게시판으로 돌아가기</a>  
 </header>
 	<form method="POST" class="bbs_write">
 		<fieldset>
@@ -71,8 +67,5 @@ footer a {
 		<button>저장</button>
 		</fieldset>
 	</form>
-	<footer>
-		<a href="${rootPath}/user/mypage">마이페이지</a>
-	</footer>
 </body>
 </html>

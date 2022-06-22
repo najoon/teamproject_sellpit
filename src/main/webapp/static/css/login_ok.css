@@ -72,21 +72,6 @@ textarea {
 }
 
 
-#header .logo {
-    width: 10rem;
-    height: 8rem;
-    line-height: 5rem;
-    padding: 20px 0px 0px 0px;
-}
-
-.icon {
-    text-decoration: none;
-    border-bottom: none;
-    position: relative;
-    display: inline-block;
-    float: inherit;
-
-}
 
 /* #header .logo .icon:before {
     font-size: 2rem;

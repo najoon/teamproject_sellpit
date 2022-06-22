@@ -16,19 +16,13 @@ html {
 	background-attachment: fixed;
 }
 
-a.last {
+.last {
 	text-decoration: none;
-	color: rgb(200, 199, 199);
-}
-
-button:nth-of-type(2) {
-	margin: 0 10px;
-}
-
-button:hover {
-	background-color: white;
-	color: black;
-}
+    border-radius: 10px;
+    background-color: rgb(45, 45, 45);
+    color: #ddd; 
+    padding: 4px;
+} 
 
 div {
 	display: inline-block;
@@ -56,17 +50,26 @@ table th, td {
 }
 
 #tablecloth {
-	overflow: scroll;
+	overflow-y: scroll;
 	height: 400px;
+	width: 650px;
 }
 #message {
 	margin-top: 10px;
 	border-top: 1px solid #eee;
 	border-bottom: 1px solid #eee;
+} 
+section {
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
+.last:hover {
+	cursor: pointer;
+}
+
 </style>
 <link rel="stylesheet"
-	href="${rootPath}/static/css/mypage.css?ver=2022-06-14-001" />
+	href="${rootPath}/static/css/mypage.css?ver=2022-06-20-001" />
 </head>
 
 <body>
@@ -99,12 +102,8 @@ table th, td {
 			<div id="message">${MESSAGE}</div>
 		</section>
 		<footer>
-			<button>
-				<a href="${rootPath}/user/calender" class="last">난이도</a>
-			</button>
-			<button>
-				<a href="${rootPath}/user/notion" class="notion  last">게시판</a>
-			</button>
+			<a href="${rootPath}/user/calender" class="last">난이도</a>
+			<a href="${rootPath}/user/notionList" class="notion  last">게시판</a>
 			<button onclick="history.back()" class="last">이전화면</button>
 		</footer>
 	</div>

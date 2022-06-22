@@ -31,12 +31,17 @@ color:#eee;
 #daysetList {
 	margin-top: 30px;
 }
-
+footer {
+	margin: 10px auto; 
+	overflow-y: scroll;
+	height: 300px;
+	width: 580px; 
+}
 </style>
 <script>
 	const rootPath = "${rootPath}"
 </script>
-<script src="${rootPath}/static/js/dayhealth.js?20220616_002"></script>
+<script src="${rootPath}/static/js/dayhealth.js?20220620_002"></script>
 
 </head>
 <link rel="stylesheet"

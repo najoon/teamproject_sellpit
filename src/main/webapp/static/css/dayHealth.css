@@ -104,7 +104,8 @@ img {
   border-radius: 8px;
   display: flex;
   justify-content: center;
-  width: 70vw;
+  margin: 5px auto;
+  width: 580px;
   padding: 5px;
   font-size: 13px;
   line-height: 18px;

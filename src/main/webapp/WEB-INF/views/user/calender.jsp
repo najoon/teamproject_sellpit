@@ -20,10 +20,14 @@ form div {
 	font-weight: 550;
 }
 #before {
-	background-color: transparent;
-	color: #eee;
+	background-color: #44465b;
+	border: 0.1px solid  #44465b;
+	color: #1e1212;
 	border-radius: 10px;
 	padding: 3px;
+} 
+#before:hover {
+	color: #c0aeae;
 }
 </style>
 <link rel="stylesheet"
