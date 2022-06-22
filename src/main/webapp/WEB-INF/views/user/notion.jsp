@@ -58,11 +58,11 @@ form button {
 </header>
 	<form method="POST" class="bbs_write">
 		<fieldset>
-		<input name="no_date" type="date" value="${NOTION.no_date}">
-		<input name="no_time" type="time" value="${NOTION.no_time}">
-		<input name="no_writer" placeholder="작성자" value="${NOTION.no_writer}">
-		<input name="no_subject" placeholder="제목" value="${NOTION.no_subject}">
-		<textarea rows="5" cols="20" name="no_content" placeholder="내용" ></textarea>
+		<input name="no_date" type="date" value="${NOTION.no_date}" hidden="hidden" />
+		<input name="no_time" type="time" value="${NOTION.no_time}"hidden="hidden" />
+		<input name="no_writer" placeholder="작성자" value="${USER.username}"  readonly="readonly" />
+		<input name="no_subject" placeholder="제목" value="${NOTION.no_subject}" autofocus />
+		<textarea rows="5" cols="20" name="no_content" placeholder="내용"  required="required"></textarea>
 		<!-- <input type="file" name="file" accept="image/*"> -->
 		<button>저장</button>
 		</fieldset>

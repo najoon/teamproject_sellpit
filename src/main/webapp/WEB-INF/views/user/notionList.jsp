@@ -58,7 +58,7 @@ table th, td {
 
 </style>
 <body>
-	<h2>문의 사항</h2>
+	<h2>게시판</h2>
 	<section>
 		<a href="${rootPath}/user/notion">글쓰기</a>
 	</section>
