@@ -103,7 +103,7 @@ section {
 		</section>
 		<footer>
 			<a href="${rootPath}/user/calender" class="last">난이도</a>
-			<a href="${rootPath}/user/notion" class="notion  last">게시판</a>
+			<a href="${rootPath}/user/notionList" class="notion  last">게시판</a>
 			<button onclick="history.back()" class="last">이전화면</button>
 		</footer>
 	</div>
